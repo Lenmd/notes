@@ -1,6 +1,7 @@
 ## 基础
 
 ### docker 命令
+
 ```
 # 查看镜像
 docker images 或 docker image ls
@@ -33,6 +34,7 @@ sudo docker exec -it mysql -uroot -p
 
 
 ### 安装Redis
+
 ```
 docker run -d \
   --name nginx80 \
