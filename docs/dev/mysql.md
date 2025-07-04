@@ -9,4 +9,13 @@ trx_rows_modified 事物修改行数，可判断大事务
 
 -- 删除
 kill  634031;  trx_mysql_thread_id
+
+
+
+-- 查看当前锁信息
+SELECT * FROM information_schema.innodb_locks;
+
+-- 查看锁等待队列
+SELECT * FROM information_schema.innodb_lock_waits;
+
 ```
